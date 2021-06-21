@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="55fec9c4a9b846d987143d957a560767" Name="Diagram1">
+        <EntityTypeShape EntityType="CompanyModel.ComDep" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Company" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Department" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Employee" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="CompanyModel.FK_ComDep_ComDep" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_ComDep_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Department_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Department_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Employee_Employee" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
